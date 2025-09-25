@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1758606663556,
+    "controlId": 1,
+    "category": "5.1",
+    "description": "Policies for information security :\n Information security policy and topic-specific policies shall be defined, approved by management, published, communicated to and acknowledged by relevant personnel and relevant interested parties, and reviewed at planned intervals and if significant changes occur.",
+    "status": "Planned",
+    "documentRef": [
+      "ISMS_POL_Information Security Policy_v2.0"
+    ],
+    "createdAt": "2025-09-23T05:51:03.549Z"
+  },
+  {
+    "id": 1758606663573,
+    "controlId": 2,
+    "category": "5.2",
+    "description": "Information security roles and responsibilities :\n Information security roles and responsibilities shall be defined and allocated according to the organization needs.",
+    "status": "Planned",
+    "documentRef": [
+      "ISMS_DOC_Roles, Responsibilities and Authorities_v5.0"
+    ],
+    "createdAt": "2025-09-23T05:51:03.569Z"
+  },
+  {
+    "id": 1758606663590,
+    "controlId": 3,
+    "category": "5.3",
+    "description": "Segregation of duties :\n Conflicting duties and conflicting areas of responsibility shall be segregated.",
+    "status": "Planned",
+    "documentRef": [
+      "ISMS_DOC_Roles, Responsibilities and Authorities_v5.0"
+    ],
+    "createdAt": "2025-09-23T05:51:03.585Z"
+  },
+  {
+    "id": 1758606663606,
+    "controlId": 4,
+    "category": "5.4",
+    "description": "Management responsibilities :\n Management shall require all personnel to apply information security in accordance with the established information security policy, topic-specific policies and procedures of the organization.",
+    "status": "Planned",
+    "documentRef": [
+      "ISMS_SOP_Human Resource Security Management Procedure_v5.0"
+    ],
+    "createdAt": "2025-09-23T05:51:03.602Z"
+  },
+  {
+    "id": 1758606663623,
+    "controlId": 5,
+    "category": "5.5",
+    "description": "Contact with authorities :\n The organization shall establish and maintain contact with relevant authorities.",
+    "status": "Planned",
+    "documentRef": [
+      "ISMS_LOG_Contact With Authorities_v1.0"
+    ],
+    "createdAt": "2025-09-23T05:51:03.618Z"
+  },
+  {
+    "id": 1758606663641,
+    "controlId": 6,
+    "category": "5.6",
+    "description": "Contact with special interest groups :\n The organization shall establish and maintain contact with special interest groups or other specialist security forums and professional associations.",
+    "status": "Planned",
+    "documentRef": [
+      "ISMS_LOG_Contact With Special Interest Group_v1.0"
+    ],
+    "createdAt": "2025-09-23T05:51:03.636Z"
+  }
+]

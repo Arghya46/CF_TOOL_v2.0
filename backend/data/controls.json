@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "category": "5.1",
+    "description": "Policies for information security :\n Information security policy and topic-specific policies shall be defined, approved by management, published, communicated to and acknowledged by relevant personnel and relevant interested parties, and reviewed at planned intervals and if significant changes occur."
+  },
+  {
+    "id": 2,
+    "category": "5.2",
+    "description": "Information security roles and responsibilities :\n Information security roles and responsibilities shall be defined and allocated according to the organization needs."
+  },
+  {
+    "id": 3,
+    "category": "5.3",
+    "description": "Segregation of duties :\n Conflicting duties and conflicting areas of responsibility shall be segregated."
+  },
+  {
+    "id": 4,
+    "category": "5.4",
+    "description": "Management responsibilities :\n Management shall require all personnel to apply information security in accordance with the established information security policy, topic-specific policies and procedures of the organization."
+  },
+  {
+    "id": 5,
+    "category": "5.5",
+    "description": "Contact with authorities :\n The organization shall establish and maintain contact with relevant authorities."
+  },
+  {
+    "id": 6,
+    "category": "5.6",
+    "description": "Contact with special interest groups :\n The organization shall establish and maintain contact with special interest groups or other specialist security forums and professional associations."
+  }
+]
