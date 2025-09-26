@@ -272,11 +272,14 @@ const ResidualRiskForm = ({ formData = {}, handleInputChange }) => {
             color: "#2c3e50",
             fontSize: "20px",
             fontWeight: "600",
-            marginBottom: "20px",
+            marginBottom: "2px",
           }}
         >
           🎯 Residual Risk Assessment
         </h3>
+        <p style={{ textAlign:"center", color: "#7f8c8d", fontSize: "16px",marginBottom: "5px"}}>
+          Result from Risk Assessment.
+        </p>
         <div style={summaryCardStyle}>
           <div style={summaryItemStyle}>
             <span style={summaryLabelStyle}>Likelihood</span>
@@ -293,7 +296,8 @@ const ResidualRiskForm = ({ formData = {}, handleInputChange }) => {
           <div style={summaryItemStyle}>
             <span style={summaryLabelStyle}>Risk Score</span>
             <span style={summaryValueStyle}>
-              {parseInt(formData.impact)*parseInt(formData.probability) || "Not Set"}
+              {parseInt(formData.impact) * parseInt(formData.probability) ||
+                "Not Set"}
             </span>
           </div>
         </div>

@@ -199,7 +199,7 @@ const RiskTemplateTable = () => {
           color: "#333",
         }}
       >
-        Risk Templates
+        Sample Risks
       </h2>
 
       <div
@@ -574,6 +574,13 @@ const RiskTemplateTable = () => {
                 { label: "Asset Type", value: selectedRisk.assetType },
                 { label: "Asset", value: selectedRisk.asset },
                 { label: "Risk Level", value: selectedRisk.riskLevel },
+
+                // ✅ Move Risk Description here (before Risk Score)
+                {
+                  label: "Risk Description",
+                  value: selectedRisk.riskDescription,
+                },
+
                 { label: "Risk Score", value: selectedRisk.riskScore },
                 { label: "Status", value: selectedRisk.status },
                 {
@@ -612,7 +619,9 @@ const RiskTemplateTable = () => {
                   >
                     {item.label}:
                   </div>
-                  <div style={{ color: "#333" }}>{item.value || "N/A"}</div>
+                  <div style={{ color: "#333", lineHeight: "1.5" }}>
+                    {item.value || "N/A"}
+                  </div>
                 </div>
               ))}
             </div>

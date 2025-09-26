@@ -64,5 +64,17 @@
       "ISMS_LOG_Contact With Special Interest Group_v1.0"
     ],
     "createdAt": "2025-09-23T05:51:03.636Z"
+  },
+  {
+    "id": 1758795804751,
+    "controlId": 7,
+    "category": "5.15",
+    "description": "Access control :\n Rules to control physical and logical access to information and other associated assets shall be established and implemented based on business and information security requirements.",
+    "status": "Planned",
+    "documentRef": [
+      "ISMS_POL_Access Control Policy_v5.0",
+      "ISMS_LOG_Access Control Matrix (ACM)_v1.0"
+    ],
+    "createdAt": "2025-09-25T10:23:24.742Z"
   }
 ]

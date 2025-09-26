@@ -28,5 +28,10 @@
     "id": 6,
     "category": "5.6",
     "description": "Contact with special interest groups :\n The organization shall establish and maintain contact with special interest groups or other specialist security forums and professional associations."
+  },
+  {
+    "id": 7,
+    "category": "5.15",
+    "description": "Access control :\n Rules to control physical and logical access to information and other associated assets shall be established and implemented based on business and information security requirements."
   }
 ]

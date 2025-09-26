@@ -210,5 +210,102 @@
     "impactAfterTreatment": "",
     "createdAt": "2025-09-25T03:54:13.448Z",
     "updatedAt": "2025-09-25T03:54:13.448Z"
+  },
+  {
+    "riskId": "RR-2025-008",
+    "department": "IT",
+    "date": "2025-09-25",
+    "riskType": "Tactical",
+    "assetType": "Private",
+    "asset": "",
+    "riskDescription": "Risk of loss of information due to unauthorized access of outsiders because of weak access control,device malfunction,etc",
+    "confidentiality": 2,
+    "threat": "unauthorized access of outsiders",
+    "vulnerability": [
+      "weak access control"
+    ],
+    "integrity": 2,
+    "availability": 2,
+    "impact": 2,
+    "probability": "2",
+    "existingControls": "",
+    "additionalNotes": "",
+    "controlReference": [
+      "5.15"
+    ],
+    "additionalControls": "Admin Facility to take up this matter and apply the necessary actions",
+    "numberOfDays": "20",
+    "deadlineDate": "2025-10-15",
+    "riskScore": 4,
+    "riskLevel": "Medium",
+    "location": "Server Issue",
+    "createdAt": "2025-09-25T09:58:46.254Z",
+    "updatedAt": "2025-09-25T10:04:53.441Z",
+    "status": "Active",
+    "likelihoodAfterTreatment": "1",
+    "impactAfterTreatment": "1"
+  },
+  {
+    "riskId": "RR-2025-009",
+    "department": "HR",
+    "date": "2025-09-16",
+    "riskType": "Strategic",
+    "assetType": "Private",
+    "asset": "Information",
+    "riskDescription": "Risk of loss of confidentiality of employee records due to unauthorized access  because of weak access controls",
+    "confidentiality": 3,
+    "integrity": 2,
+    "availability": 2,
+    "probability": "2",
+    "existingControls": "",
+    "additionalNotes": "",
+    "controlReference": [
+      "5.15"
+    ],
+    "additionalControls": "Password-protected HRMS (but weak) \nCompensatory - \n1)Strong access control measures must be implemented.\n2)Multi-factor authentication should be enforced for employee data, also.\n3)User access rights must be reviewed monthly.",
+    "numberOfDays": "17",
+    "deadlineDate": "2025-10-03",
+    "status": "Active",
+    "riskScore": 6,
+    "riskLevel": "Medium",
+    "likelihoodAfterTreatment": "1",
+    "impactAfterTreatment": "1",
+    "createdAt": "2025-09-25T10:08:17.620Z",
+    "updatedAt": "2025-09-25T10:08:17.629Z",
+    "vulnerability": []
+  },
+  {
+    "riskId": "RR-2025-010",
+    "department": "IT",
+    "date": "2025-09-25",
+    "riskType": "Tactical",
+    "assetType": "Private",
+    "asset": "",
+    "riskDescription": "Risk of loss of information due to unauthorized access",
+    "confidentiality": 2,
+    "threat": "unauthorized access",
+    "vulnerability": [
+      "weak access control"
+    ],
+    "integrity": 2,
+    "availability": 2,
+    "impact": 2,
+    "probability": "2",
+    "existingControls": "",
+    "additionalNotes": "",
+    "controlReference": [
+      "5.15"
+    ],
+    "additionalControls": "abc",
+    "numberOfDays": "20",
+    "deadlineDate": "2025-10-15",
+    "riskScore": 4,
+    "riskLevel": "Medium",
+    "location": "Server",
+    "status": "Active",
+    "likelihoodAfterTreatment": "1",
+    "impactAfterTreatment": "1",
+    "createdAt": "2025-09-25T10:19:36.833Z",
+    "updatedAt": "2025-09-25T10:19:36.833Z"
   }
 ]

@@ -289,10 +289,17 @@ const TaskManagement = ({ riskFormData = {}, employees = [] }) => {
 
   return (
     <div style={{ padding: "30px", maxWidth: "1000px", margin: "auto" }}>
-      <h2 style={{ marginBottom: "20px", textAlign: "center" }}>
-        Treatment Plan
-      </h2>
-
+      <h2 style={{ marginBottom: "2px", textAlign: "center" }}>Action Plan</h2>
+      <p
+        style={{
+          textAlign: "center",
+          color: "#7f8c8d",
+          fontSize: "16px",
+          marginBottom: "15px",
+        }}
+      >
+        Tasks to treat identified Risks.
+      </p>
       {user && ["risk_owner", "risk_manager"].includes(user.role) && (
         <div style={{ display: "grid", gap: "20px", marginBottom: "30px" }}>
           <div
